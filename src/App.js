@@ -6,16 +6,18 @@ import { NestedCheckboxes } from './components/nested-menu/nested-checkboxes';
 import { NestedRoot } from './components/nested-menu/nested-root';
 import { OptionsRoot } from './components/nested-menu/options-root';
 import Card from "./components/drag-n-drop/drag-n-drop"
+import { Something } from './components/d3-practice';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <DatePicker />
-        <NestedCheckboxes />
-        <NestedRoot />
-        <OptionsRoot />
+        {/* <DatePicker /> */}
+        {/* <NestedCheckboxes /> */}
+        {/* <NestedRoot /> */}
+        {/* <OptionsRoot /> */}
         {/* <Card /> */}
+        <Something />
       </div>
     );
   }
