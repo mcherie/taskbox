@@ -6,7 +6,10 @@ import { NestedCheckboxes } from './components/nested-menu/nested-checkboxes';
 import { NestedRoot } from './components/nested-menu/nested-root';
 import { OptionsRoot } from './components/nested-menu/options-root';
 import Card from "./components/drag-n-drop/drag-n-drop"
-import { Something } from './components/d3-practice';
+import { BarD3 } from './components/bar-d3';
+import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer"
+import { PDFTest } from './components/pdf-test';
+// import ReactPDF, { Page, Document, PDFViewer } from '@react-pdf/renderer'
 
 class App extends Component {
   render() {
@@ -17,7 +20,9 @@ class App extends Component {
         {/* <NestedRoot /> */}
         {/* <OptionsRoot /> */}
         {/* <Card /> */}
-        <Something />
+        {/* <BarD3 /> */}
+        {/* <PDFTest /> */}
+        <PDFViewer> <PDFTest /> </PDFViewer>
       </div>
     );
   }
