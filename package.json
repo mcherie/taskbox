@@ -5,10 +5,12 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+    "@progress/kendo-drawing": "^1.9.3",
+    "@progress/kendo-licensing": "^1.0.1",
+    "@progress/kendo-react-pdf": "^4.0.0",
     "@react-pdf/renderer": "^1.6.11",
     "d3": "^6.2.0",
     "date-fns": "^2.16.1",
-    "pdfmake": "^0.1.68",
     "react": "^16.13.1",
     "react-date-range": "^1.0.3",
     "react-dnd": "^11.1.3",

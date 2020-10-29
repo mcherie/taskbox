@@ -10,6 +10,8 @@ import { BarD3 } from './components/bar-d3';
 import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer"
 import { PDFTest } from './components/pdf-test';
 // import ReactPDF, { Page, Document, PDFViewer } from '@react-pdf/renderer'
+import { EnhancedTable } from "./components/tables/material-ui-table"
+
 
 class App extends Component {
   render() {
@@ -20,9 +22,10 @@ class App extends Component {
         {/* <NestedRoot /> */}
         {/* <OptionsRoot /> */}
         {/* <Card /> */}
-        {/* <BarD3 /> */}
+        <BarD3 />
         {/* <PDFTest /> */}
-        <PDFViewer> <PDFTest /> </PDFViewer>
+        {/* <PDFViewer> <PDFTest /> </PDFViewer> */}
+        <EnhancedTable />
       </div>
     );
   }
