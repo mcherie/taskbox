@@ -9,7 +9,7 @@ import Card from "./components/drag-n-drop/drag-n-drop"
 import { BarD3 } from './components/bar-d3';
 import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer"
 import { PDFTest } from './components/pdf-test';
-// import ReactPDF, { Page, Document, PDFViewer } from '@react-pdf/renderer'
+import ReactPDF, { Page, Document, PDFViewer } from '@react-pdf/renderer'
 import { EnhancedTable } from "./components/tables/material-ui-table"
 
 
