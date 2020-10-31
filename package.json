@@ -9,6 +9,7 @@
     "@progress/kendo-licensing": "^1.0.1",
     "@progress/kendo-react-pdf": "^4.0.0",
     "@react-pdf/renderer": "^1.6.11",
+    "canvg": "^3.0.7",
     "d3": "^6.2.0",
     "date-fns": "^2.16.1",
     "react": "^16.13.1",

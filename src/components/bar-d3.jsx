@@ -3,6 +3,7 @@ import * as d3 from "d3"
 // import pdf, { PDFDocument } from "react-pdfmake/lib"
 import ReactPDF, { Page, Text, View, Document, StyleSheet, } from "@react-pdf/renderer"
 // import { PDFDocument } from "react-pdfmake"s
+import { PDFTest } from "./pdf-tests/pdf-test"
 
 export const BarD3 = () => {
 
@@ -28,22 +29,7 @@ export const BarD3 = () => {
       .domain([0, 25])
       .range([400, 0])
 
-    // svgElement
-    //   .selectAll("p")
-    //   .data(data)
-    //   .enter()
-    // .append("p")
-    // .append("text")
-    // .text(dta => dta.region)
-    // .attr("fill", "blue")
-    // .attr("fill", "red")
-    // .append("circle")
-    //   .attr("cx", d => d.value * 20)
-    //   .attr("cy", 100)
-    //   .attr("r", 10)
-
-    console.log(xScale)
-
+    // console.log(xScale)
 
     svgElement
       .attr("width", 500)
@@ -60,28 +46,17 @@ export const BarD3 = () => {
       .attr("height", d => 400 - yScale(d.value))
       .attr("fill", "purple")
 
-
-    // .selectAll(".bar")
-    // .data(data)
-    // .enter()
-    // .append("div")
-    //   .classed("bar", true)
-    //   .style("fill", "cornflowerblue")
-    //   .attr("width", 50)
-    //   .attr("height", d => d.value * 10)
-
-
   }, [])
 
-
   return (
-    // <Fragment>
-      // <Document pageSize="A5" pageOrientation="portrait">
+    <Fragment>
+      {/* // <Document pageSize="A5" pageOrientation="portrait"> */}
         <svg ref={d3Ref}/>
-        // <Page ref={d3Ref}></Page>
-      // </Document>
+        {/* <PDFTest myProp={d3Ref}/> */}
+        {/* // <Page ref={d3Ref}></Page> */}
+      {/* // </Document> */}
       
-    // </Fragment>
+    </Fragment>
   )
 }
 
