@@ -22,8 +22,8 @@ class App extends Component {
         {/* <NestedRoot /> */}
         {/* <OptionsRoot /> */}
         {/* <Card /> */}
-        <BarD3 />
-        <PDFTest style={{paddingTop: "5vh"}}/>
+        {/* <BarD3 /> */}
+        {/* <PDFTest style={{paddingTop: "5vh"}}/> */}
         <PDFCanvg/>
         {/* <PDFViewer> <PDFTest /> </PDFViewer> */}
         {/* <EnhancedTable /> */}
