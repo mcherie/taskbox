@@ -6,12 +6,11 @@ import { NestedRoot } from './components/nested-menu/nested-root';
 import { OptionsRoot } from './components/nested-menu/options-root';
 import Card from "./components/drag-n-drop/drag-n-drop"
 import { BarD3 } from './components/bar-d3';
-// import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer"
 import { PDFTest } from './components/pdf-tests/pdf-test';
-import ReactPDF, { Page, Document, PDFViewer, } from '@react-pdf/renderer'
+import ReactPDF, { Page, Document, PDFViewer, PDFDownloadLink} from '@react-pdf/renderer'
 import { EnhancedTable } from "./components/tables/material-ui-table"
 import { PDFCanvg } from './components/pdf-tests/pdf-canvg';
-
+import { CanvgTest } from "./components/pdf-tests/canvg-test"
 
 class App extends Component {
   render() {
@@ -27,27 +26,11 @@ class App extends Component {
         <PDFCanvg/>
         {/* <PDFViewer> <PDFTest /> </PDFViewer> */}
         {/* <EnhancedTable /> */}
+        {/* <CanvgTest /> */}
       </div>
     );
   }
 }
 
-// import { PDFDownloadLink, Document, Page, Text } from '@react-pdf/renderer'
-
-// const MyDoc = () => (
-//   <Document>
-//     <Page>
-//       <Text>anything TEXTTT</Text>
-//     </Page>
-//   </Document>
-// )
-
-// const App = () => (
-//   <div>
-//     <PDFDownloadLink document={<MyDoc />} fileName="somename.pdf">
-//       {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
-//     </PDFDownloadLink>
-//   </div>
-// )
 
 export default App;
