@@ -11,6 +11,7 @@ import ReactPDF, { Page, Document, PDFViewer, PDFDownloadLink} from '@react-pdf/
 import { EnhancedTable } from "./components/tables/material-ui-table"
 import { PDFCanvg } from './components/pdf-tests/pdf-canvg';
 import { CanvgTest } from "./components/pdf-tests/canvg-test"
+import { ReactToPDF } from './components/pdf-tests/react-to-pdf';
 
 class App extends Component {
   render() {
@@ -22,11 +23,12 @@ class App extends Component {
         {/* <OptionsRoot /> */}
         {/* <Card /> */}
         {/* <BarD3 /> */}
-        {/* <PDFTest style={{paddingTop: "5vh"}}/> */}
-        <PDFCanvg/>
+        {/* <PDFTest style={{padding: "5vh"}}/> // this works except for renderring an Image */}
+        {/* <PDFCanvg/> */}
         {/* <PDFViewer> <PDFTest /> </PDFViewer> */}
         {/* <EnhancedTable /> */}
-        {/* <CanvgTest /> */}
+        <CanvgTest />
+        {/* <ReactToPDF /> // this works as a screenshot */}
       </div>
     );
   }
